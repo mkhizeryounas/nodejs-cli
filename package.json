@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jsdoc": "./node_modules/.bin/jsdoc -c jsdoc.json",
+    "test": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'"
+  },
+  "keywords": [],
+  "author": "mkhizeryounas",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jsdoc": "^3.6.3"
+  }
+}
